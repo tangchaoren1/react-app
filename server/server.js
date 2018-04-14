@@ -1,6 +1,6 @@
 const express = require('express');
 const ReactSSR = require('react-dom/server');
-const fs = require('fs');
+// const fs = require('fs');
 const path = require('path');
 const serverEnter = require('../dist/server-enter').default;
 
