@@ -14,6 +14,6 @@ app.get("*", function(req, res) {
     res.send(result);
 })
 
-app.listen(3333, function() {
+app.listen(8888, function() {
     console.log('服务器已经启动')
 })
