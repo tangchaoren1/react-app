@@ -38,6 +38,10 @@ if (isDev) {
         hot: true,
         overlay: {
             errors: true
+        },
+        publicPath: '/public',
+        historyApiFallback: {
+            index:'/public/index.html'
         }
     }
 }
